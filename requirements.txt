@@ -1,0 +1,20 @@
+## Manually Create
+requirements.txt:
+A-learn==1.24.0
+B-learn==2.0.1
+C-learn==1.2.0
+D-learn==2.14.0
+E-learn==2.3.0
+
+## Automated Generate
+requirements.txt:
+pip install -r requirements.txt
+
+#Create a virtual enviroment
+python -m venv venv
+
+#activate on windows
+venv\Scripts\activate
+
+#install dependencies
+pip install -r requirements.txt
